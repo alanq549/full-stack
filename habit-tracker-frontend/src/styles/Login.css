@@ -1,0 +1,110 @@
+.container{
+  display: flexbox;
+  /*border: 2px solid gray;*/
+  margin: 0 35%;
+  margin-top: 3%;
+  justify-items: center;
+  padding: 0 5px;
+  height: 75vh;
+background-color: #1e1e1e50;
+margin-bottom: 110px;
+border-radius: 5%;
+padding-top: 20px;
+font-size: 1.1rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/*border: 1px solid #6a0dad9e;*/
+    box-shadow: 0px 0px 15px rgb(66, 1, 82);
+
+}
+
+.container > h2{
+  font-size: 2.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background: linear-gradient(-85deg, 
+#6A0DAD,  /* Morado fuerte */
+#B833FF,  /* Morado brillante */
+#D77BFF,  /* Lavanda intenso */
+#7A00A3   /* Morado oscuro profundo */
+); 
+text-shadow: none;
+background-clip: text; 
+-webkit-background-clip: text;  
+color: transparent;  
+-webkit-text-fill-color: transparent;
+}
+.div-hr{
+  margin-top: 5px;
+  width:fit-content;
+
+}
+form{
+  padding-left: 5px;
+  width: 300px;
+  margin-top: 30px;
+
+}
+input {
+  margin-top: 5px;
+  width: 95%;
+  background: rgba(69, 68, 68, 0.507);
+  border: none;
+  color: aliceblue;
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 8px; /* Ajusta el valor según qué tan redondeado lo quieras */
+  padding: 5px; /* Opcional, para dar espacio interno */
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+button {
+  display: block;
+  margin: 0 auto; /* Centrado */
+  border-radius: 8px;
+  padding: 10px 20px; /* Espaciado interno */
+  border: none;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: aliceblue;
+  background: linear-gradient(145deg, 
+    #6A0DAD,  /* Morado fuerte */
+    #B833FF,  /* Morado brillante */
+    #D77BFF   /* Lavanda intenso */
+  );
+  box-shadow: 0px 4px 10px rgba(183, 51, 255, 0.3); /* Sombra suave */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+  background: linear-gradient(145deg, 
+    #7A00A3,  /* Morado oscuro */
+    #6A0DAD,  
+    #B833FF
+  );
+  box-shadow: 0px 6px 15px rgba(214, 122, 255, 0.5); /* Brillo más intenso */
+  transform: translateY(-2px); /* Pequeño efecto de elevación */
+}
+
+/* Efecto al presionar */
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0px 2px 5px rgba(183, 51, 255, 0.2);
+}
+
+.linkR {
+  color: #7A00A3; /* Cambiar el color del texto */
+  text-decoration: none; /* Eliminar el subrayado */
+}
+
+.linkR:hover {
+  color:slateblue; /* Cambiar color al pasar el mouse */
+}

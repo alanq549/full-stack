@@ -1,0 +1,15 @@
+body {
+    background: 
+    radial-gradient(circle at top left, rgba(150, 50, 255, 0.1) 10%, transparent 50%),  
+    radial-gradient(circle at bottom right, rgba(100, 30, 200, 0.05) 10%, transparent 50%),  
+    linear-gradient(50deg, rgba(40, 0, 80, 0.1) 0%, rgba(20, 0, 60, 0.2) 100%),  
+    linear-gradient(325deg, #000000 70%, #000000 85%, #000000 100%);  
+background-color: #000000;
+color: aliceblue;
+height: 100%;
+}
+
+
+
+
+

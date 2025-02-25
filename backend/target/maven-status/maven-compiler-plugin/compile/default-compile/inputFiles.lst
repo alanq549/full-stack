@@ -1,0 +1,17 @@
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\BackendApplication.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\config\CorsConfig.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\config\SecurityConfig.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\controller\AuthController.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\controller\HabitController.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\model\Habit.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\model\Rol.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\model\UserDTO.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\model\Usuario.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\repository\HabitRepository.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\repository\RolRepository.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\repository\UsuarioRepository.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\security\JwtAuthenticationFilter.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\service\HabitService.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\service\UsuarioService.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\util\JwtConfig.java
+C:\Users\alanq\Documents\proyectos\full stack\backend\src\main\java\com\example\backend\util\JwtUtil.java

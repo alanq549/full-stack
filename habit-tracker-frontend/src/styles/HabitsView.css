@@ -1,0 +1,156 @@
+.container2{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+#title1{
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(-85deg, 
+#6A0DAD,  /* Morado fuerte */
+#B833FF,  /* Morado brillante */
+#D77BFF,  /* Lavanda intenso */
+#7A00A3   /* Morado oscuro profundo */
+); 
+text-shadow: none;
+background-clip: text; 
+-webkit-background-clip: text;  
+color: transparent;  
+-webkit-text-fill-color: transparent;
+bottom: 0%;
+}
+
+#title2{
+    padding-right: 200px;
+    background: linear-gradient(-85deg, 
+    #6A0DAD,  /* Morado intenso */
+    #A74FFF,  /* Morado claro */
+    #D77BFF   /* Lavanda */
+); 
+background-clip: text; 
+-webkit-background-clip: text;  
+color: transparent;  
+-webkit-text-fill-color: transparent;
+}
+#title3{
+    top: 5%;
+    background: linear-gradient(-85deg, 
+    #6A0DAD,  /* Morado intenso */
+    #A74FFF,  /* Morado claro */
+    #D77BFF   /* Lavanda */
+); 
+background-clip: text; 
+-webkit-background-clip: text;  
+color: transparent;  
+-webkit-text-fill-color: transparent;
+padding-right: 500px;
+padding-top: 0;
+}
+#mis-hb{
+    margin-left: 40px;
+}
+h2{
+    text-align: center;
+}
+
+.subtitles{
+    text-align: center;
+    font-size: 2.5rem;
+    background: linear-gradient(-85deg,  
+    #0b2fb3, /* Azul más oscuro para profundidad */
+    #104bee, /* Azul fuerte */
+    #00cfff,  /* Azul cian brillante */
+    #0055ff, /* Azul más brillante */
+    #810c9e  /* Morado intenso */
+), 
+linear-gradient(50deg,  
+    #1a1aff, /* Azul eléctrico */
+    #a000c8  /* Morado neón */
+);
+text-shadow: 0px 0px 6px rgba(0, 150, 200, 0.5); /* Sombra azul suave */
+background-clip: text; 
+-webkit-background-clip: text;  
+color: transparent;  
+-webkit-text-fill-color: transparent; 
+}
+
+#list-h{
+    margin-top: 5%;
+    left: 0;
+    height: 50vh;
+    override-colors: black;
+}
+
+li{
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+input[type="date"] {
+    background-color: #222222a2; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    border: 1px solid #555;
+  }
+  
+  
+  input[type="date"]:focus {
+    border-color: #ff5733; /* Cambia de color cuando el input está enfocado */
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(30%) sepia(80%) saturate(500%) hue-rotate(200deg);
+    cursor: pointer;
+  }
+  .Checkbox-f label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+
+}
+.Checkbox-f input {
+    width: 20px; 
+}
+
+.form-B{
+    display: inline-block;
+    font-size: small;
+}
+.form-B2>{
+    display: flex;
+    flex-direction: column;
+}
+  #editF{
+    justify-items: center;
+    width: 500px;
+    top: 10%;
+    right: 0;
+    position: absolute;
+  }
+  
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+    .container2>div:nth-of-type(1){
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title2{
+        text-align: center;
+        margin-top: 100px;
+        padding-left: 20px;
+        white-space: nowrap;
+    }
+    #title3{
+        text-align: center;
+        margin-top: 100px;
+        padding-left: 110px;
+        white-space: nowrap;
+    }
+
+    #mis-hb{
+        margin-top: 0px;
+    }
+}
